@@ -1,0 +1,25 @@
+{
+  "name": "ra-guess-number",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "ra-guess-number": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@types/inquirer": "^9.0.3",
+    "chalk": "^5.1.2",
+    "inquirer": "^9.1.4"
+  }
+}
