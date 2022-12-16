@@ -1,9 +1,10 @@
+#! /usr/bin/env node
+// import nanospinner from "nanospinner";
 import figlet from "figlet";
 import chalk from "chalk";
 import inquirer from "inquirer";
 console.clear();
 let again = true;
-let loginuser = null;
 let uid;
 let current_balance;
 let login = false;
@@ -254,7 +255,7 @@ async function option() {
         case "Exit":
             break;
     }
-    console.log(statement);
+    // console.log(statement);
     await retry();
 }
 const retry = async () => {
